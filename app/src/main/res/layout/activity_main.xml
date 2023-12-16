@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextIdOrden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IdOrden"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:layout_below="@id/editTextIdOrden"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPeriodista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Periodista"
+        android:layout_below="@id/editTextDescripcion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha"
+        android:layout_below="@id/editTextPeriodista"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_below="@id/editTextFecha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_below="@id/buttonGuardar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
