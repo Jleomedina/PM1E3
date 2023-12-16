@@ -57,4 +57,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"/>
 
+    <Button
+        android:id="@+id/buttonModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modificar"
+        android:layout_below="@id/buttonEliminar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
 </RelativeLayout>
